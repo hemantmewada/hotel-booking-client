@@ -12,6 +12,7 @@ import PropertyList from "./pages/PropertyList";
 import ReservationList from "./pages/ReservationList";
 import CategoryPage from "./pages/CategoryPage";
 import Search from "./pages/Search";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/search/:search" element={<Search />} />
       </Routes>
       <Toaster position="bottom-center" />
+      <Footer />
     </BrowserRouter>
   );
 }
