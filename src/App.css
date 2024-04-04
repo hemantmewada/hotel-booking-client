@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Poppins;
+  src: url('/fonts/Poppins/Poppins-Light.ttf');
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+/* global css */
+.form-error{
+  color: #ff0000;
+  font-size: 14px;
+}
+.d-none{
+  display: none;
+}
+.text-white{
+  color: #FFF;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.text-center{
+  text-align: center;
+}
